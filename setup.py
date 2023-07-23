@@ -1,7 +1,13 @@
-from setuptools import find_packages,setup
+from setuptools import setup, find_packages
 
-setup(name="alldetection",
-    version="1.0",
-    install_requires=[],
-    packages=find_packages(exclude="notebooks")
+setup(
+    name="all_detection",
+    version="0.1.0",
+    packages=find_packages(),
+    install_requires=[
+        "tensorflow"
+    ],
+    author="Arnav S",
+    description="A package containing the VIT CLASSIFIER",
+    url="https://github.com/ArnavS1102/all_detection.git"
 )
